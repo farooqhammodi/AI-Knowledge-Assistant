@@ -1,0 +1,29 @@
+# Python virtual environments (massively bloated files you don't track)
+.venv/
+venv/
+ENV/
+env/
+
+# Project configuration and local secrets (CRITICAL: keeps your Groq API key safe)
+.env
+.env.local
+
+# Python caching (automatically generated compiled files)
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Local uploads and datasets (keeps uploaded test PDFs off your public profile)
+uploads/
+*.pdf
+*.txt
+
+# IDE / Editor configurations
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
