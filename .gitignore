@@ -14,10 +14,7 @@ __pycache__/
 *.pyo
 *.pyd
 
-# Local uploads and datasets (keeps uploaded test PDFs off your public profile)
-uploads/
-*.pdf
-*.txt
+
 
 # IDE / Editor configurations
 .vscode/
